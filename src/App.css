@@ -6,5 +6,9 @@ header{
   justify-content: center;
   background-color: #F55A5A;
   gap:20px;
-  color: white;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
 }
