@@ -1,6 +1,7 @@
-import logo from "./logo.svg";
+import data from "./data.js";
 import "./App.css";
 import Header from "./components/Header";
+import Card from "./components/Card";
 
 function App() {
   /*Data array in a separate js file
@@ -10,6 +11,10 @@ function App() {
   return (
     <div className="App">
       <Header />
+
+      {data.map((item, index) => {
+        return <Card key={"card" + index} item={item} />;
+      })}
     </div>
   );
 }
