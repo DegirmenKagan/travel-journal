@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+header{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  gap:20px;
+  color: white;
+}
