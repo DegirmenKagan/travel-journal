@@ -4,7 +4,7 @@
 header{
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: #F55A5A;
   gap:20px;
   color: white;
 }
